@@ -1,4 +1,4 @@
-a# UAS-Recruitment-Project
+# UAS-Recruitment-Project
 ### Task: 
 The theme for this task is Search and Rescue. A fire has broken out in a civilian area and your job is to gather information about the location of houses and buildings in the area. Your UAV is collecting images of the search area that look like the sample image given below. 
 ###### Information about the input image:
