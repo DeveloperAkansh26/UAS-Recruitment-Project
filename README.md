@@ -1,4 +1,4 @@
-# UAS-Recruitment-Project
+a# UAS-Recruitment-Project
 ### Task: 
 The theme for this task is Search and Rescue. A fire has broken out in a civilian area and your job is to gather information about the location of houses and buildings in the area. Your UAV is collecting images of the search area that look like the sample image given below. 
 ###### Information about the input image:
@@ -25,7 +25,7 @@ The ‘result’ function using techniques like Blurring to preprocess the image
 Then a mask for the Burnt Grass region of the image is produced using the inRange() function and the obtained mask is processed using the Morphological Operations like Opening, Dilation and Erosion to obtain a mask containing the Burnt Grass and all the houses present in that area. This is used to find the mask for Green Grass region using bitwise_not operation.
   
 Now to find the no. of Red and Blue houses in each regions, the masks obtained are applied to the original image to extract the regions separately.
-These are used to find the Red color and Blue color houses in the images separately and further used to apply contour detection technique to identify the no. of each houses which are then stored a dictionary.
+These are used to find the Red color and Blue color houses in the images separately and further used to apply contour detection technique to identify the no. of each houses which are then stored in a dictionary.
 
 The output image to be produced is done using image subtraction operation to get the mask of regions of Burnt and Green Grass without the houses. These are used to apply as mask to a plane solid color image. Two images obtained are combined together. 
 Similarly the house masks for each region are combined together and those are used to extract the houses from the original image. Both the images are combined to form the output image.
